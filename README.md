@@ -1,4 +1,5 @@
-# Threads synchronization for a campus library (For Honors Section 200 Only)
+# Threads synchronization for a campus library
+## (For Honors Section 200 Only)
 
 Write a C++ program that manages book loans for a library.
 
