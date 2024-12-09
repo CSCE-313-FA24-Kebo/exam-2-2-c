@@ -1,10 +1,10 @@
-# Quiz 4.2.b: Threads synchonization for a campus library
+# Threads synchronization for a campus library (For Honors Section 200 Only)
 
-Write a C++ program that manages books loan for a library.
+Write a C++ program that manages book loans for a library.
 
-Consider that the students are threads and the books are shared resources.
+Consider that the students are threads, and the books are shared resources.
 
-The total number of books available is 100 indicated by the global shared variable `books_available`.
+The total number of books available is 10, as0 indicated by the global shared variable `books_available`.
 
 The program creates six threads each requiring `quantity` books to be allocated.
 
@@ -36,5 +36,5 @@ Student 1 checked in 90 books.
 ## Important notes:
 1. Usage: `Usage: ./library`
 1. Use a mutex and a condition variable for synchronization
-1. Your program will be manually tested for correctness with additional test cases including different file types.
-1. Your program should compile with no errors and warnings.
+1. Your program will be manually tested for correctness with additional test cases, including different file types.
+1. Your program should compile with no errors or warnings.
