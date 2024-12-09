@@ -4,7 +4,7 @@ Write a C++ program that manages book loans for a library.
 
 Consider that the students are threads, and the books are shared resources.
 
-The total number of books available is 10, as0 indicated by the global shared variable `books_available`.
+The total number of books available is 100 indicated by the global shared variable `books_available`.
 
 The program creates six threads each requiring `quantity` books to be allocated.
 
